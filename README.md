@@ -83,13 +83,13 @@ public static void main(String... args) {
 
     Procesor filipuvProcesor = new Procesor();
     filipuvProcesor.setRychlost(3_400_000_000_000L);
-    filipuvProcesor.vyrobce = "Intel";
+    filipuvProcesor.setVyrobce("Intel");
 
     Pamet filipovaPamet = new Pamet();
-    filipovaPamet.kapacita = 16_000_000_000L;
+    filipovaPamet.setKapacita(16_000_000_000L);
 
     Disk filipuvDisk = new Disk();
-    filipuvDisk.kapacita = 255_195_746_304L;
+    filipuvDisk.setKapacita(255_195_746_304L);
 
     filipuvPocitac.setCpu(filipuvProcesor);
     filipuvPocitac.setRam(filipovaPamet);
